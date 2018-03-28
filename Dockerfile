@@ -1,6 +1,6 @@
 ## Repository: blippar/drone-aragorn
-## Tags:       ["latest", "1.2.0"]
-FROM blippar/aragorn:1.2.0 as aragorn
+## Tags:       ["latest", "1.3.0"]
+FROM blippar/aragorn:1.3.0 as aragorn
 FROM alpine:latest AS drone
 
 RUN apk add --no-cache ca-certificates jq coreutils
